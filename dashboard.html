@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+
+<body class="body">
+
+
+    <!------------------- Main ------------------->
+
+    <main class="row text-secondary ">
+
+        <!------------------ Sidebar ------------------>
+
+        <div class="col-2 p-0 fixed-top">
+            <div class="d-flex flex-column flex-shrink-0 p-0 text-bg-dark vh-100" style="width:100% ">
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                    <svg class="bi pe-none me-2" width="40" height="32">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                    <span class="fs-4 my-4"> <img src="./images/logo.png" alt="" class="w-50 "> </span>
+                </a>
+                <ul class="nav nav-pills d-flex flex-column mb-auto myul flex-nowrap ">
+                    <li class="nav-item text-secondary p-3 myfs ">
+                        NAVIGATION
+                    </li>
+
+                    <li>
+                        <a href="#" class="nav-link text-white d-flex w-100 justify-content-between mt-2 p-0">
+                            <div> <i class="bi bi-house-fill  mx-2 "></i>
+                                Dashboard </div>
+                            <span class="badge bg-success ">4</span>
+                        </a>
+
+                    </li>
+                    <li class="nav-item text-secondary mt-2 Analytics ">
+                        Analytics
+                    </li>
+                    <li class="nav-item text-white mt-2 Analytics ">
+                        Ecommerce
+                    </li>
+                    <li class="nav-item text-secondary my-3 Analytics ">
+                        Projects
+                    </li>
+                    <li class="d-flex justify-content-between">
+                        <div class="nav-item text-secondary  Analytics ">
+                            E-Wallet </div>
+                        <span class="badge bg-danger New">New</span>
+                    </li>
+                    <li class="nav-item text-secondary p-3 myfs">
+                        APPS
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-secondary w-100  mt-2 p-0">
+                            <i class="bi bi-calendar4 mx-2"></i>
+                            Calendar
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-secondary w-100  mt-3 p-0">
+                            <i class="bi bi-chat-right mx-2"></i>
+                            Chat
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-secondary d-flex w-100 justify-content-between mt-3 p-0">
+                            <div> <i class="fi fi-rr-tachometer-fast mx-2"></i>
+                                CRM </div>
+                            <span class="badge bg-danger ">New</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-secondary d-flex w-100 justify-content-between mt-3 p-0">
+                            <div> <i class="bi bi-shop-window mx-2"></i>
+                                Ecommerce </div>
+                            <span> <i class="fi fi-rr-angle-right text-secondary icon"></i> </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-secondary d-flex w-100 justify-content-between mt-3 p-0">
+                            <div> <i class="bi bi-envelope mx-2"></i>
+                                Email </div>
+                            <span> <i class="fi fi-rr-angle-right text-secondary icon"></i> </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-secondary d-flex w-100 justify-content-between mt-3 p-0">
+                            <div> <i class="bi bi-briefcase mx-2"></i>
+                                Projects </div>
+                            <span> <i class="fi fi-rr-angle-right text-secondary icon"></i> </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-secondary w-100  mt-3 p-0">
+                            <i class="bi bi-rss mx-2"></i>
+                            Social Feed
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-secondary d-flex w-100 justify-content-between mt-3 p-0">
+                            <div> <i class="bi bi-clipboard-minus mx-2"></i>
+                                Tasks </div>
+                            <span> <i class="fi fi-rr-angle-right text-secondary icon"></i> </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-secondary w-100  mt-3 p-0">
+                            <i class="bi bi-folder-plus mx-2"></i>
+                            File Manager
+                        </a>
+                    </li>
+                    <li class="nav-item text-secondary p-3 myfs">
+                        CUSTOM
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-secondary d-flex w-100 justify-content-between mt-3 p-0">
+                            <div> <i class="bi bi-file-earmark mx-2"></i>
+                                Pages </div>
+                            <span> <i class="fi fi-rr-angle-right text-secondary icon"></i> </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-secondary d-flex w-100 justify-content-between mt-3 p-0">
+                            <div> <i class="bi bi-globe mx-2"></i>
+                                Landing </div>
+                            <span class="badge bg-secondary ">New</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-secondary d-flex w-100 justify-content-between mt-3 p-0">
+                            <div> <i class="bi bi-window mx-2"></i>
+                                Lyouts </div>
+                            <span> <i class="fi fi-rr-angle-right text-secondary icon"></i> </span>
+                        </a>
+                    </li>
+                    <li class="nav-item text-secondary p-3 myfs">
+                        COMPONENTS
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-secondary d-flex w-100 justify-content-between mt-3 p-0">
+                            <div> <i class="bi bi-box-seam mx-2"></i>
+                                Base UI </div>
+                            <span> <i class="fi fi-rr-angle-right text-secondary icon"></i> </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-secondary d-flex w-100 justify-content-between mt-3 p-0">
+                            <div> <i class="bi bi-clipboard2 mx-2"></i>
+                                Extented UI </div>
+                            <span> <i class="fi fi-rr-angle-right text-secondary icon"></i> </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-secondary d-flex w-100 justify-content-between mt-3 p-0">
+                            <div> <i class="bi bi-stack mx-2"></i>
+                                Wedgets </div>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-secondary d-flex w-100 justify-content-between mt-3 p-0">
+                            <div> <i class="bi bi-pie-chart mx-2"></i>
+                                Icons </div>
+                            <span> <i class="fi fi-rr-angle-right text-secondary icon"></i> </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-secondary d-flex w-100 justify-content-between mt-3 p-0">
+                            <div><i class="bi bi-justify-left mx-2"></i>
+                                Forms </div>
+                            <span> <i class="fi fi-rr-angle-right text-secondary icon"></i> </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-secondary d-flex w-100 justify-content-between mt-3 p-0">
+                            <div> <i class="bi bi-file-bar-graph mx-2"></i>
+                                Charts </div>
+                            <span> <i class="fi fi-rr-angle-right text-secondary icon"></i> </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-secondary d-flex w-100 justify-content-between mt-3 p-0">
+                            <div> <i class="bi bi-table mx-2"></i>
+                                Tables </div>
+                            <span> <i class="fi fi-rr-angle-right text-secondary icon"></i> </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-secondary d-flex w-100 justify-content-between mt-3 p-0">
+                            <div> <i class="bi bi-geo-alt mx-2"></i>
+                                Maps </div>
+                            <span> <i class="fi fi-rr-angle-right text-secondary icon"></i> </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-secondary d-flex w-100 justify-content-between mt-3 p-0">
+                            <div> <i class="bi bi-folder-plus mx-2"></i>
+                                Multi Level </div>
+                            <span> <i class="fi fi-rr-angle-right text-secondary icon"></i> </span>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="./images/12.png" class="img-fluid mt-5 img12" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!------------------ fin sidebar ---------------->
+
+        <div class="col-2"></div>
+
+        <!------------------- Nav-bar ------------------->
+
+        <div class="col-10 pl-3 p-0 ">
+            <nav class="navbar navbar-expand-lg bg-light sticky-top shadow  ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled">Disabled</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <!-------------------Fin Nav-bar ------------------->
+
+            <div class="dashboard row px-3 mx-0 mt-3 justify-content-between">
+                <h4 class="col-2"> Dashboard</h4>
+                <div class="col-3">
+                    <div class="row">
+                        <div class="col-6 d-flex justify-content-between">
+                            <div class="input-group mb-3">
+                                <input type="date" class="form-control" placeholder="Recipient's username"
+                                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <div class="col-1 mx-3 align-items-center justify-content-center d-flex "
+                                    style=" background-color: #c0c5fb; width: 40px;height: 40px; border-radius: 3px;">
+                                    <i class="bi bi-calendar-event text-primary "></i>
+                                </div>
+                            </div>
+                            <div class="col-1 mx-3 align-items-center justify-content-center d-flex "
+                                style=" background-color: #c0c5fb; width: 40px;height: 40px; border-radius: 3px;">
+                                <i class="bi bi-arrow-clockwise text-primary "></i>
+                            </div>
+                            <div class="col-1 align-items-center justify-content-center d-flex "
+                                style=" background-color: #c0c5fb; width:40px; height: 40px; border-radius:3px;">
+                                <i class="bi bi-text-center text-primary "></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <section1 class="row px-3 mx-0 mt-3">
+                    <div class="col-5 px-0">
+                        <div class="row m-0 h-100">
+                            <div class="col-6 pb-3 m-0">
+                                <div class="bg-white h-100 d-flex flex-column justify-content-center
+                                 shadow p-4 position-relative">
+                                    <p class="h6 "> Customers </p>
+                                    <p class="h2"> 36,254 </p>
+                                    <p> <span class="text-success h6">
+                                            <i class="bi bi-arrow-up"></i> 5.27%</span> Since last month
+                                    </p>
+                                    <div class=" position-absolute d-flex justify-content-center align-items-center p-2"
+                                        style="width:45px; height: 45; background-color:#c0c5fb; ; border-radius:3px; top:20px; right: 20px;">
+                                        <i class="bi bi-person-plus-fill text-primary"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 pb-3 m-0">
+                                <div
+                                    class="bg-white h-100 d-flex flex-column justify-content-center shadow p-4 position-relative">
+                                    <p class="h6 "> Orders </p>
+                                    <p class="h2"> 5,543 </p>
+                                    <p> <span class="text-danger h6">
+                                            <i class="bi bi-arrow-down"></i> 1.08%</span>&nbsp; Since last month
+                                    </p>
+                                    <div class=" position-absolute d-flex justify-content-center align-items-center p-2"
+                                        style="width:45px; height: 45; background-color:#c0c5fb; ; border-radius:3px; top:20px; right: 20px;">
+                                        <i class="bi bi-cart-plus text-primary"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 m-0">
+                                <div
+                                    class="bg-white h-100 d-flex flex-column justify-content-center shadow p-4 position-relative">
+                                    <p class="h6 "> Revenue </p>
+                                    <p class="h2"> 6,254 </p>
+                                    <p> <span class="text-danger h6">
+                                            <i class="bi bi-arrow-down"></i> 7.00%</span> Since last month
+                                    </p>
+                                    <div class=" position-absolute d-flex justify-content-center align-items-center p-2"
+                                        style="width:45px; height: 45; background-color:#c0c5fb; ; border-radius:3px; top:20px; right: 20px;">
+                                        <i class="bi bi-currency-dollar text-primary"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 m-0">
+                                <div
+                                    class="bg-white h-100 d-flex flex-column justify-content-center shadow p-4 position-relative">
+                                    <p class="h6 "> Growth </p>
+                                    <p class="h2"> +30,56% </p>
+                                    <p> <span class="text-success h6">
+                                            <i class="bi bi-arrow-up"></i> 4.87%</span> Since last month
+                                    </p>
+                                    <div class=" position-absolute d-flex justify-content-center align-items-center p-2"
+                                        style="width:45px; height: 45; background-color:#c0c5fb; ; border-radius:3px; top:20px; right: 20px;">
+                                        <i class="bi bi-activity text-primary"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-7">
+                        <img src="./images/1.png" class="w-100" alt="">
+                    </div>
+                </section1>
+                <section2 class="row px-3 mx-0 mt-3">
+                    <div class="col-8 ">
+                        <img src="./images/6.png" class="w-100 h-100" alt="">
+                    </div>
+
+                    <div class="col-4 ">
+                        <img src="./images/7.png" class="w-100 h-100" alt="">
+                    </div>
+
+                </section2>
+
+                <section3 class="row px-3 mx-0 mt-3">
+                    <div class="col-6 pt-2 bg-white">
+                        <div class="d-flex justify-content-between my-3 ">
+                            <h5> TOP SELLING PRODUCTS </h5>
+                            <button class="border-0 bg-white text-primary">
+                                Export
+                                <i class="bi bi-download"></i>
+                            </button>
+                        </div>
+                        <table class="table text-secondary list-unstyled">
+                            <tr>
+                                <td>
+                                    <li> ASOS Ridley High Waist
+                                    </li>
+                                    <li> 07 April 2018</li>
+                                </td>
+                                <td>
+                                    <li> $79.49 </li>
+                                    <li> Price </li>
+                                </td>
+                                <td>
+                                    <li> 82 </li>
+                                    <li> Quantity </li>
+                                </td>
+                                <td>
+                                    <li> $6,518.18 </li>
+                                    <li> Amount </li>
+                                </td>
+                                </td>
+                            </tr>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <li> Marco Lightweight Shirt </li>
+                                        <li> 25 March 2018 </li>
+                                    </td>
+                                    <td>
+                                        <li> $128.50 </li>
+                                        <li> Price </li>
+                                    </td>
+                                    <td>
+                                        <li> 37 </li>
+                                        <li> Quantity </li>
+                                    </td>
+                                    <td>
+                                        <li> $4,754.50 </li>
+                                        <li> Amount </li>
+                                    </td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li> Half Sleeve Shirt </li>
+                                        <li> 17 March 2018 </li>
+                                    </td>
+                                    <td>
+                                        <li> $39.99 </li>
+                                        <li> Price </li>
+                                    </td>
+                                    <td>
+                                        <li> 64 </li>
+                                        <li> Quantity </li>
+                                    </td>
+                                    <td>
+                                        <li> $2,559.36 </li>
+                                        <li> Amount </li>
+                                    </td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li> Lightweight Jacket </li>
+                                        <li> 12 March 2018 </li>
+                                    </td>
+                                    <td>
+                                        <li> $20.00 </li>
+                                        <li> Price </li>
+                                    </td>
+                                    <td>
+                                        <li> 184 </li>
+                                        <li> Quantity </li>
+                                    </td>
+                                    <td>
+                                        <li> $3,680.00 </li>
+                                        <li> Amount </li>
+                                    </td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li> Marco Shoes </li>
+                                        <li> 05 March 2018 </li>
+                                    </td>
+                                    <td>
+                                        <li> $28.49 </li>
+                                        <li> Price </li>
+                                    </td>
+                                    <td>
+                                        <li> 69 </li>
+                                        <li> Quantity </li>
+                                    </td>
+                                    <td>
+                                        <li> $1,965.81 </li>
+                                        <li> Amount </li>
+                                    </td>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-3 px-3 ">
+                        <img src="./images/9.png" class="w-100 h-100" alt="">
+                    </div>
+                    <div class="col-3 bg-white px-3">
+                        <div class="d-flex  justify-content-between my-3 ">
+                            <h5> RECENT ACTIVITY </h5>
+                            <i class="bi bi-three-dots-vertical"></i>
+                        </div>
+                        <div>
+                           <div class="d-flex "> 
+                            <div class="d-flex justify-content-center" style=" margin-right: 20px; width:30px;height:30px;border-radius:20px;
+                             background-color:#adf;"> <i class="bi bi-upload text-secondary"></i> 
+                            </div> 
+                            <h6 style="color:rgb(53, 161, 234);"> You sold an item </h6>
+                        </div>
+                            <p>Paul Burgess just purchased “Hyper - Admin </p>
+                            <p>Dashboard”!</p>
+                            <p>5 minutes ago</p>
+                        </div>
+
+                    </div>
+
+                </section3>
+
+                <!------------------- footer col-10 ------------------->
+                <hr>
+                <footer class="row mx-3 mt-3 justify-content-between ">
+                    <div class="col-4">
+                        <p> 2022 © Hyper - Coderthemes.com </p>
+                    </div>
+                    <div class="col-4">
+                        <ul class="d-flex justify-content-end ">
+                            <li class="list-unstyled"> About </li>
+                            <li class="list-unstyled mx-3"> Support </li>
+                            <li class="list-unstyled"> Contact Us </li>
+                        </ul>
+                    </div>
+                </footer>
+                <!------------------Fin footer col-10 ----------------->
+            </div>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
